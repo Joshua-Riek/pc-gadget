@@ -1,0 +1,10 @@
+volumes:
+  pc:
+    bootloader: grub
+    structure:
+      - name: ubuntu-data
+        role: system-data
+        filesystem: ext4
+        type: 83,87c6b0ce-3bb6-4dc2-9298-3a799bbb5994
+        size: 12G
+
